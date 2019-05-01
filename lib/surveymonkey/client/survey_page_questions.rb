@@ -1,7 +1,7 @@
 module SurveyMonkeyApi
     class Client
         # API endpoints for surveys resources
-        module SurveyPages
+        module SurveyPageQuestions
             # Returns list of questions for a page as array in ['data'] field
             # Each question looks like
             # {"headings": [{"heading": "A question about primates.", "random_assignment": {"percent": 50, "position": 1}}
