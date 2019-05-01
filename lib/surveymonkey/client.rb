@@ -10,6 +10,7 @@ module SurveyMonkeyApi
         include SurveyMonkeyApi::Client::Users
         include SurveyMonkeyApi::Client::Surveys
         include SurveyMonkeyApi::Client::SurveyResponses
+        include SurveyMonkeyApi::Client::Collectors
 
         base_uri 'https://api.surveymonkey.net'
         format :json
